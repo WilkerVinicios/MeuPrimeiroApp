@@ -27,5 +27,14 @@ public class PrimeiraTela extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button openBT2 = findViewById(R.id.button);
+        openBT2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SobreActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
