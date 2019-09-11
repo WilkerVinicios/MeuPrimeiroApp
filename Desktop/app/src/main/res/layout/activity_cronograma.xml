@@ -33,18 +33,25 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5"
-                app:layout_constraintVertical_bias="0.0"></LinearLayout>
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="As 1-Se é para criticar (os outros), cale-se.  2-Se é para reclamar, dê sugestão.  3-Se é para buscar culpados, busque solução.  4-Se é para se fazer de vítima, faça-se de vencedor.  5-Se é para justificar seus erros, aprenda com eles.  6-Se é para julgar as pessoas, julgue suas atitudes." />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="65dp"
-                android:layout_height="0dp"
+                android:layout_width="152dp"
+                android:layout_height="21dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="TextView"
+                android:text="As 16 leis do Sucesso!"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintHorizontal_bias="0.032"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/primero" />
 
@@ -54,9 +61,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="TextView"
+                android:text="As 6 leis da Auto-responsabilidade!"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintHorizontal_bias="0.046"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -70,7 +77,14 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                app:layout_constraintTop_toBottomOf="@+id/textView6" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1-Associação com outras pessoas com o mesmo perfil de pensamento. 2-Objetivo principal definido. 3-Confiança em si próprio. 4-Economia. 5-Iniciativa e Liderança. 6-Imaginação. 7-Entusiasmo. 8-Autocontrole. 9-Hábito de fazer mais do que a obrigação. 10-Personalidade atraente 11-Pensar com Exatidão. 12-Concentração. 13-Cooperação. 14-Fracasso. 15-Tolerância. 16-Fazer aos outros aquilo que quer que seja feito a você mesmo." />
+            </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
